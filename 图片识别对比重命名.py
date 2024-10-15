@@ -263,7 +263,7 @@ if __name__ == "__main__":
         fetch_images_from_page()
 
     # 设置匹配轮数（为None时执行全部匹配，设置为1时只执行一轮）
-    rounds_to_run = 20  # 改为 None 来执行所有轮次
+    rounds_to_run = None  # 改为 None 来执行所有轮次
 
     # 进行图片匹配
     match_images(folder1, folder2, output_txt, comparison_folder, rounds=rounds_to_run)
